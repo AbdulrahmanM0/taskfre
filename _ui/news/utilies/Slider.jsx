@@ -31,7 +31,7 @@ function Slider() {
         data-aos-duration="1000"
         className="flex justify-between items-center gap-4 mb-4"
       >
-        <h1 className="text-clamp-64 font-bold leading-[0.7] h-fit text-gr100">
+        <h1 className="text-clamp-60 3xl:text-clamp-64 font-bold leading-[0.7] h-fit text-gr100">
           خدمات شيد
         </h1>
 

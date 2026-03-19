@@ -9,9 +9,9 @@ function NewsCard({ index }) {
         <Image src={"/images/news/rect1.png"} className='w-full object-cover' width={345} height={277} alt='news' />
       </div>
       {/* col2  */}
-      <div className='flex flex-col gap-clamp-24'>
+      <div className='flex flex-col justify-between'>
         {/* title  */}
-        <h3 className='text-clamp-26 3xl:text-clamp-32 text-gr100 font-bold'>
+        <h3 className='text-clamp-30 3xl:text-clamp-32 text-gr100 font-bold'>
           اتفاقية اعلانبية
         </h3>
         {/* body  */}
@@ -32,7 +32,7 @@ function NewsCard({ index }) {
         </div>
 
         {/* read more  */}
-        <div className="mt-auto flex items-center justify-end gap-clamp-24 group cursor-pointer">
+        <div className=" flex items-center justify-end gap-clamp-24 group cursor-pointer">
           <h4 className="text-clamp-18 3xl:text-clamp-20 text-gr100 font-bold transition-all duration-300 group-hover:text-gr200">
             اقرا المزيد
           </h4>
