@@ -1,0 +1,39 @@
+.no-edge {
+    text-edge: text-box-edge;
+    display: inline-block;
+}
+body {
+    // background-color: #000;
+}
+
+// swipper
+.custom-pagination {
+    display: flex;
+    align-items: center;
+}
+
+/* bar */
+.custom-bullet {
+    width: 60px;
+    height: 6px;
+    background: #d9d9d9;
+    border-radius: 4px;
+    transition: all 0.35s ease;
+    opacity: 1;
+}
+
+/* active bar */
+.swiper-pagination-bullet-active.custom-bullet {
+    background: #2563eb; /* blue */
+    width: 80px;
+}
+
+.custom-pagination {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .custom-pagination {
+    display: flex !important;
+  }
+}

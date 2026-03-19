@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./typography.scss";
+@import "./main.scss";
+
+@layer utilities {
+    .max-layout {
+        @apply max-w-[1920px] mx-auto;
+    }
+    .content-container {
+        @apply max-w-[clamp(320px,79.17vw,1520px)]
+    }
+}
