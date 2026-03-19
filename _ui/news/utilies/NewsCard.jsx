@@ -5,22 +5,22 @@ function NewsCard({ index }) {
   return (
     <div className='grid grid-cols-2 gap-clamp-40' data-aos="fade-right" data-aos-duration={`1000`}>
       {/* col1 */}
-      <div>
-        <Image src={"/images/news/rect1.png"} width={345} height={277} alt='news' />
+      <div className='h-full w-full relative'>
+        <Image src={"/images/news/rect1.png"} className='w-full object-cover' width={345} height={277} alt='news' />
       </div>
       {/* col2  */}
       <div className='flex flex-col gap-clamp-24'>
         {/* title  */}
-        <h3 className='text-clamp-32 text-gr100 font-bold'>
+        <h3 className='text-clamp-26 3xl:text-clamp-32 text-gr100 font-bold'>
           اتفاقية اعلانبية
         </h3>
         {/* body  */}
-        <p className='text-clamp-14'>
+        <p className='text-clamp-12 3xl:text-clamp-14'>
           اتفاقية اعلانبية
           شيد العقارية توقع شراكة تسويقية استراتيجية مع المؤثر أحمد البارقي، بهدف تعزيز تواجدها الرقمي والترويج لمشاريعها العقارية المتميزة. ويأتي هذا التعاون ضمن استراتيجية الشركة للوصول إلى جمهور واسع عبر منصات التواصل الاجتماعي، لتسليط الضوء …
         </p>
         {/* date annd time  */}
-        <div className='text-clamp-14 flex gap-clamp-20'>
+        <div className='text-clamp-12 3xl:text-clamp-14 flex gap-clamp-20'>
           {/* date */}
           <div className='leading-[0.7]'>
             03-03-2025
@@ -32,8 +32,8 @@ function NewsCard({ index }) {
         </div>
 
         {/* read more  */}
-        <div className="flex items-center justify-end gap-clamp-24 group cursor-pointer">
-          <h4 className="text-clamp-20 text-gr100 font-bold transition-all duration-300 group-hover:text-gr200">
+        <div className="mt-auto flex items-center justify-end gap-clamp-24 group cursor-pointer">
+          <h4 className="text-clamp-18 3xl:text-clamp-20 text-gr100 font-bold transition-all duration-300 group-hover:text-gr200">
             اقرا المزيد
           </h4>
 

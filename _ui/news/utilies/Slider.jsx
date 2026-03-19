@@ -99,14 +99,14 @@ function Slider() {
 
                 <div className="py-clamp-14 px-clamp-28 shadow-[-1px_-17px_20px_6px_#1A2E2D] bg-[#1A2E2D] flex flex-col gap-clamp-30 relative z-10">
                   <div className="flex justify-between items-center text-balance">
-                    <h3 className="text-clamp-32 font-bold">اتفاقية اعلانبية</h3>
-                    <div className="text-clamp-14 flex gap-clamp-20 py-clamp-8">
+                    <h3 className="text-clamp-30 3xl:text-clamp-32 font-bold">اتفاقية اعلانبية</h3>
+                    <div className="text-clamp-12 3xl:text-clamp-14 flex gap-clamp-20 py-clamp-8">
                       <div className="leading-[0.7]">03-03-2025</div>
                       <div className="leading-[0.7]">12:45</div>
                     </div>
                   </div>
 
-                  <p className="text-clamp-20 text-balance">
+                  <p className="text-clamp-18 3xl:text-clamp-20 text-balance">
                     شيد العقارية توقع شراكة تسويقية استراتيجية مع المؤثر أحمد البارقي، بهدف تعزيز تواجدها الرقمي والترويج لمشاريعها العقارية المتميزة. ويأتي هذا التعاون ضمن استراتيجية الشركة للوصول إلى جمهور واسع عبر منصات التواصل الاجتماعي، لتسليط الضوء …
                   </p>
 

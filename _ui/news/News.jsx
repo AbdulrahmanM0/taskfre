@@ -15,7 +15,7 @@ function News() {
                     {/* content  */}
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-clamp-100'>
                         <Slider />
-                        <div className='flex flex-col gap-clamp-60'>
+                        <div className='flex flex-col gap-clamp-40 3xl:gap-clamp-60'>
                             {[1, 2, 3].map((item, index) => (
                                 <NewsCard key={index + item} index={index} />
                             ))}

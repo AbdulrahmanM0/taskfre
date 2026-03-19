@@ -15,10 +15,10 @@ function Slider() {
   const [isEnd, setIsEnd] = useState(false);
 
   const slides = [
-    { id: 1 },
-    { id: 2 },
-    { id: 3 },
-    { id: 4 },
+    { id: 1 ,src:"bck1.png"},
+    { id: 2 ,src:"bck2.png"},
+    { id: 3 ,src:"bck3.png"},
+    { id: 4 ,src:"bck4.png"},
   ];
 
   const handleSlideChange = (swiper) => {
@@ -107,8 +107,8 @@ function Slider() {
                     data-aos="fade-right"
                     data-aos-duration="1000"
                   >
-                    {[1, 2, 3, 4].map((item, index) => (
-                      <Card key={index} />
+                    {["bck1.png", "bck2.png", "bck3.png", "bck4.png"].map((item, index) => (
+                      <Card key={index} item={item}/>
                     ))}
                   </div>
                 </div>

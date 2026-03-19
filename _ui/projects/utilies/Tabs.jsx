@@ -42,7 +42,7 @@ function Tabs() {
 
             {/* Label */}
             <div
-              className="absolute inset-0 flex items-center justify-center text-clamp-26 font-semibold"
+              className="absolute inset-0 flex items-center justify-center text-clamp-20 3xl:text-clamp-26 font-semibold"
               style={{ color: isActive ? "#fff" : "#2d3748" }}
             >
               {tab}
